@@ -18,7 +18,7 @@ main {
 }
 
 main h2 {
-    color: var(--accent-clr);
+    color: var(--theme-clr);
     font-size: 1.15rem;
     font-weight: 600;
     letter-spacing: 1px;
@@ -41,7 +41,7 @@ main p {
         display: flex;
     }
         .price-days div:first-child {
-            color: var(--theme-clr);
+            color: var(--accent-clr);
             font-weight: 600;
         }
         .price-days img {

@@ -5,10 +5,20 @@
         background-color: var(--card-BG);
         padding: 1.3rem;
         border-radius: 1rem;
+        border-right: .5rem solid var(--line);
+
+        filter: blur(4px) brightness(1.1);
+        opacity: .7;
+        animation: reflection-float 3s ease-in-out infinite alternate;
+    }
+    @keyframes reflection-float {
+        to {
+            transform: rotateX(180deg) rotateY(360deg) rotateZ(3deg) translateX(.5rem) translateY(1rem);
+        }
     }
 
     .reflection h2 {
-        color: var(--White);
+        color: var(--theme-clr);
         font-size: 1.15rem;
         font-weight: 600;
         letter-spacing: 1px;
