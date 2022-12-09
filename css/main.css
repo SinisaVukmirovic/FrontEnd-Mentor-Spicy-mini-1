@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@import './blocks.css';
+@import './desktop-view.css';
+@import './reflection.css';
+
+:root {
+    /* primary */
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    /* neutral */
+    --main-BG: hsl(217, 54%, 11%);
+    --card-BG: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    /* my twist */
+    --theme-clr: hsl(6, 80%, 72%);
+    --accent-clr: hsl(186, 50%, 52%);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    font-size: 18px;
+}
+    /* @media (min-width: 1440px) {
+        html {
+            font-size: 20px;
+        }
+    } */
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+
+h1.hidden {
+    position: absolute;
+    left: -100rem;
+}
+
+hr {        
+    height: 1px;
+    border: none;
+    background-color: var(--line);
+}

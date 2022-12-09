@@ -1,0 +1,71 @@
+@media (min-width: 1440px) {
+    .reflection {
+        display: block;
+        transform: rotateX(180deg) rotateY(360deg) rotateZ(3deg);
+        background-color: var(--card-BG);
+        padding: 1.3rem;
+        border-radius: 1rem;
+    }
+
+    .reflection h2 {
+        color: var(--White);
+        font-size: 1.15rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding: 1.5rem 0 1rem;
+    }
+
+    .reflection p {
+        line-height: 1.5;
+        font-size: .95rem;
+        font-weight: 300;
+    }
+
+    .reflection .price-days {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 0;
+        font-size: .9rem;
+    }
+        .reflection .price-days div {
+            display: flex;
+        }
+            .reflection.price-days div:first-child {
+                color: var(--Cyan);
+                font-weight: 600;
+            }
+            .reflection .price-days img {
+                margin-right: .5rem;
+            }
+
+    .reflection .creator {
+        padding-top: 1rem;
+        display: flex;
+        align-items: center;
+        font-size: .9rem;
+    }
+        .reflection .creator img {
+            width: 2rem;
+            border-radius: 50%;
+            border: 1px solid var(--White);
+            margin-right: 1rem;
+        }
+        .reflection .creator h4 span {
+            color: var(--White);
+        }
+
+        @media (min-width: 1440px) {
+            .reflection {
+                width: 19rem;
+            }
+        
+            .reflection h2 {
+                font-size: 1.2rem;
+            }
+        
+            .reflection .creator h4 {
+                font-size: .85rem;
+            }
+        }
+
+}

@@ -3,22 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | NFT preview card component</title>
-
+  <link rel="stylesheet" href="./css/main.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <header>
+    <h1 class="hidden">NFT preview card component</h1>
+  </header>
 
   <main>
-    <h1 class="hidden">NFT preview card component</h1>
-
     <figure>
       <img src="./images/image-equilibrium.jpg" alt="Image of NFT">
     </figure>
@@ -39,10 +34,41 @@
       <hr>
       <div class="creator">
         <img src="./images/image-avatar.png" alt="Profile picture">
-        <h4>Creation of <spna>Jules Wyvern</spna></h4>
+        <h4>Creation of <span>Jules Wyvern</span></h4>
       </div>
     </section>
   </main>
+
+  <div class="reflection">
+    <figure>
+      <img src="./images/image-equilibrium.jpg" alt="Image of NFT">
+    </figure>
+
+    <section>
+      <h2>Equilibrium #3429</h2>
+      <p>Our Equilibrium collection promotes balance and calm.</p>
+      <div class="price-days">
+        <div>
+          <img src="./images/icon-ethereum.svg" alt="Icon">
+          <h3>0.041 ETH</h3>
+        </div>
+        <div>
+          <img src="./images/icon-clock.svg" alt="Icon">
+          <h3>3 days left</h3>
+        </div>
+      </div>
+      <hr>
+      <div class="creator">
+        <img src="./images/image-avatar.png" alt="Profile picture">
+        <h4>Creation of <span>Jules Wyvern</span></h4>
+      </div>
+    </section>
+  </div>
+
+  <!-- <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/SinisaVukmirovic" target="_blank">Sinisa Vukmirovic</a>.
+  </footer> -->
 
   <!-- Equilibrium #3429 -->
 
@@ -51,11 +77,11 @@
   <!-- 0.041 ETH -->
   <!-- 3 days left -->
   
-  Creation of Jules Wyvern
+  <!-- Creation of Jules Wyvern -->
 
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>

@@ -1,0 +1,32 @@
+@media (min-width: 1440px) {
+    main {
+        width: 19rem;
+        margin-bottom: 5rem;
+        /* box-shadow: 0 70px 50px -50px var(--line); */
+        transform: rotateX(3deg) rotateY(-10deg) rotateZ(3deg);
+        /* outline: 2px solid var(--White); */
+        border-right: .5rem solid var(--line);
+        box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+
+        animation: float 3s ease-in-out infinite alternate;
+    }
+    @keyframes float {
+        to {
+            transform: translateY(1.5rem) rotateX(3deg) rotateY(-10deg) rotateZ(3deg);
+        }
+    }
+
+    main h2 {
+        font-size: 1.2rem;
+    }
+
+    .creator h4 {
+        font-size: .85rem;
+    }
+}

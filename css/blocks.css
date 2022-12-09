@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--main-BG);
+    color: var(--Soft-blue);
+    font-family: 'Outfit', sans-serif;
+    padding: 2rem 1.3rem 0;
+    perspective: 1000px;
+}
+
+main {
+    background-color: var(--card-BG);
+    padding: 1.3rem;
+    border-radius: 1rem;
+}
+
+main h2 {
+    color: var(--accent-clr);
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 1.5rem 0 1rem;
+}
+
+main p {
+    line-height: 1.5;
+    font-size: .95rem;
+    font-weight: 300;
+}
+
+.price-days {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    font-size: .9rem;
+}
+    .price-days div {
+        display: flex;
+    }
+        .price-days div:first-child {
+            color: var(--theme-clr);
+            font-weight: 600;
+        }
+        .price-days img {
+            margin-right: .5rem;
+        }
+
+.creator {
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    font-size: .9rem;
+}
+    .creator img {
+        width: 2rem;
+        border-radius: 50%;
+        border: 1px solid var(--White);
+        margin-right: 1rem;
+    }
+    .creator h4 span {
+        color: var(--White);
+    }
+
+.reflection {
+    display: none;
+}
+
+/* footer {
+    font-size: 11px; 
+    text-align: center;
+}
+    footer a {
+        color: hsl(228, 45%, 44%);
+    } */
