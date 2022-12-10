@@ -3,7 +3,8 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
     background-color: var(--main-BG);
     color: var(--Soft-blue);
     font-family: 'Outfit', sans-serif;

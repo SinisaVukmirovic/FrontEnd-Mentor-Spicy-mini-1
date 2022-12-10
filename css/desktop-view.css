@@ -1,28 +1,35 @@
 @media (min-width: 1440px) {
     body {
-        background-image: linear-gradient(to bottom, var(--BG-top) 0%, var(--BG-top) 40%, var(--BG-bot) 40%, var(--BG-bot) 100%);
+        /* background-image: linear-gradient(to bottom, var(--BG-top) 0%, var(--BG-top) 50%, var(--BG-bot) 50%, var(--BG-bot) 100%); */
+
+        /* background-image: linear-gradient(to bottom, 
+            #234 0%, var(--BG-top) 55%, 
+            var(--BG-bot) 55%, #111 100%); */
+
+            background-image: linear-gradient(to bottom, 
+            #111 0%, var(--BG-top) 55%, 
+            #131313 55%, var(--BG-bot));
     }
 
     main {
         width: 19rem;
-        margin-bottom: 6rem;
+        margin-bottom: 5rem;
         /* box-shadow: 0 70px 50px -50px var(--line); */
         transform: rotateX(2deg) rotateY(-11deg) rotateZ(3deg);
-        /* outline: 2px solid var(--White); */
         border-right: .5rem solid var(--line);
         box-shadow:
-        0 13px 5px rgba(0, 0, 0, 0.04),
+        0 13px 5px rgba(0, 0, 0, 0.05),
         0 17px 10px rgba(0, 0, 0, 0.05),
-        0 24px 21px rgba(0, 0, 0, 0.07),
-        0 34px 29px rgba(0, 0, 0, 0.08),
-        0 52px 44px rgba(0, 0, 0, 0.09),
-        0 100px 80px rgba(0, 0, 0, 0.2);
+        0 24px 21px rgba(0, 0, 0, 0.1),
+        0 34px 29px rgba(0, 0, 0, 0.1),
+        0 52px 44px rgba(0, 0, 0, 0.2),
+        0 100px 80px rgba(0, 0, 0, 0.3);
 
         animation: float 3s ease-in-out infinite alternate;
     }
     @keyframes float {
         to {
-            transform: translateY(1rem) rotateX(3deg) rotateY(-10deg) rotateZ(3deg);
+            transform: translateY(1.1rem) rotateX(3deg) rotateY(-10deg) rotateZ(2deg);
         }
     }
 

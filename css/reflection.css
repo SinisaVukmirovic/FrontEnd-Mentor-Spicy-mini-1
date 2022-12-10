@@ -1,19 +1,23 @@
 @media (min-width: 1440px) {
     .reflection {
         display: block;
-        transform: rotateX(180deg) rotateY(360deg) rotateZ(3deg);
+        transform: rotateX(180deg) rotateY(360deg) rotateZ(3deg) translateX(.5rem);
         background-color: var(--card-BG);
         padding: 1.3rem;
         border-radius: 1rem;
         border-right: .5rem solid var(--line);
 
-        filter: blur(4px) brightness(1.1);
-        opacity: .7;
+        filter: blur(4px) brightness(.6);
+        opacity: .5;
+        scale: .96;
         animation: reflection-float 3s ease-in-out infinite alternate;
     }
     @keyframes reflection-float {
         to {
-            transform: rotateX(180deg) rotateY(360deg) rotateZ(3deg) translateX(.5rem) translateY(1rem);
+            transform: rotateX(180deg) rotateY(360deg) rotateZ(2deg) translateY(.5rem);
+            scale: .98;
+            opacity: .7;
+            filter: blur(2px) brightness(.8);
         }
     }
 
@@ -41,7 +45,7 @@
             display: flex;
         }
             .reflection.price-days div:first-child {
-                color: var(--Cyan);
+                color: var(--accent-clr);
                 font-weight: 600;
             }
             .reflection .price-days img {
