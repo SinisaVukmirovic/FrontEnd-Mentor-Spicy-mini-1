@@ -15,8 +15,8 @@ This is a SPICED UP solution to the [NFT preview card component challenge on Fro
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [CODE](https://github.com/SinisaVukmirovic/FrontEnd-Mentor-Spicy-mini-1)
+- Live Site URL: [DEMO](https://your-live-site-url.com)
 
 ## Author
 

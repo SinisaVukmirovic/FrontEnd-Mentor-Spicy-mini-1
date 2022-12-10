@@ -1,20 +1,13 @@
 @media (min-width: 1440px) {
     body {
-        /* background-image: linear-gradient(to bottom, var(--BG-top) 0%, var(--BG-top) 50%, var(--BG-bot) 50%, var(--BG-bot) 100%); */
-
-        /* background-image: linear-gradient(to bottom, 
-            #234 0%, var(--BG-top) 55%, 
-            var(--BG-bot) 55%, #111 100%); */
-
-            background-image: linear-gradient(to bottom, 
-            #111 0%, var(--BG-top) 55%, 
-            #131313 55%, var(--BG-bot));
+        background-image: linear-gradient(to bottom, 
+        #111 0%, var(--BG-top) 55%, 
+        #131313 55%, var(--BG-bot));
     }
 
     main {
         width: 19rem;
         margin-bottom: 5rem;
-        /* box-shadow: 0 70px 50px -50px var(--line); */
         transform: rotateX(2deg) rotateY(-11deg) rotateZ(3deg);
         border-right: .5rem solid var(--line);
         box-shadow:
@@ -25,11 +18,14 @@
         0 52px 44px rgba(0, 0, 0, 0.2),
         0 100px 80px rgba(0, 0, 0, 0.3);
 
-        animation: float 3s ease-in-out infinite alternate;
+        animation: levitate 3s ease-in-out infinite alternate;
     }
-    @keyframes float {
+    @keyframes levitate {
         to {
-            transform: translateY(1.1rem) rotateX(3deg) rotateY(-10deg) rotateZ(2deg);
+            transform: translateY(1.1rem) 
+                       rotateX(3deg) 
+                       rotateY(-10deg) 
+                       rotateZ(2deg);
         }
     }
 

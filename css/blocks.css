@@ -64,11 +64,11 @@ main p {
     .creator h4 span {
         color: var(--White);
     }
+    
+    footer {
+        display: none;
+    }
 
-.reflection {
-    display: none;
-}
-
-footer {
-    display: none;
-}
+    .reflection {
+        display: none;
+    }

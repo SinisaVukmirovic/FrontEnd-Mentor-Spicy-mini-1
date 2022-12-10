@@ -1,7 +1,11 @@
 @media (min-width: 1440px) {
     .reflection {
         display: block;
-        transform: rotateX(180deg) rotateY(360deg) rotateZ(3deg) translateX(.5rem);
+        width: 19rem;
+        transform: rotateX(180deg) 
+                   rotateY(360deg) 
+                   rotateZ(3deg) 
+                   translateX(.5rem);
         background-color: var(--card-BG);
         padding: 1.3rem;
         border-radius: 1rem;
@@ -10,11 +14,14 @@
         filter: blur(4px) brightness(.6);
         opacity: .5;
         scale: .96;
-        animation: reflection-float 3s ease-in-out infinite alternate;
+        animation: reflection 3s ease-in-out infinite alternate;
     }
-    @keyframes reflection-float {
+    @keyframes reflection {
         to {
-            transform: rotateX(180deg) rotateY(360deg) rotateZ(2deg) translateY(.5rem);
+            transform: rotateX(180deg) 
+                       rotateY(360deg) 
+                       rotateZ(2deg) 
+                       translateY(.5rem);
             scale: .98;
             opacity: .7;
             filter: blur(2px) brightness(.8);
@@ -23,7 +30,7 @@
 
     .reflection h2 {
         color: var(--theme-clr);
-        font-size: 1.15rem;
+        font-size: 1.2rem;
         font-weight: 600;
         letter-spacing: 1px;
         padding: 1.5rem 0 1rem;
@@ -44,13 +51,13 @@
         .reflection .price-days div {
             display: flex;
         }
-            .reflection.price-days div:first-child {
-                color: var(--accent-clr);
-                font-weight: 600;
-            }
-            .reflection .price-days img {
-                margin-right: .5rem;
-            }
+        .reflection.price-days div:first-child {
+            color: var(--accent-clr);
+            font-weight: 600;
+        }
+        .reflection .price-days img {
+            margin-right: .5rem;
+        }
 
     .reflection .creator {
         padding-top: 1rem;
@@ -64,22 +71,25 @@
             border: 1px solid var(--White);
             margin-right: 1rem;
         }
+        .reflection .creator h4 {
+            font-size: .85rem;
+        }
         .reflection .creator h4 span {
             color: var(--White);
         }
 
-        @media (min-width: 1440px) {
-            .reflection {
+        /* @media (min-width: 1440px) { */
+            /* .reflection {
                 width: 19rem;
-            }
+            } */
         
-            .reflection h2 {
+            /* .reflection h2 {
                 font-size: 1.2rem;
-            }
+            } */
         
-            .reflection .creator h4 {
+            /* .reflection .creator h4 {
                 font-size: .85rem;
-            }
-        }
+            } */
+        /* } */
 
 }
