@@ -1,4 +1,4 @@
-# Frontend Mentor - NFT preview card component solution
+# Frontend Mentor Spicy mini - NFT preview card component solution
 
 This is a SPICED UP solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). 
 
@@ -16,7 +16,7 @@ This is a SPICED UP solution to the [NFT preview card component challenge on Fro
 ### Links
 
 - Solution URL: [CODE](https://github.com/SinisaVukmirovic/FrontEnd-Mentor-Spicy-mini-1)
-- Live Site URL: [DEMO](https://your-live-site-url.com)
+- Live Site URL: [DEMO](https://sinisavukmirovic.github.io/FrontEnd-Mentor-Spicy-mini-1/)
 
 ## Author
 
