@@ -47,20 +47,27 @@
         position: absolute;
         left: 3rem;
         bottom: 3rem;
+        width: 3rem;
+        border-radius: 2rem;
     }
         footer .attribution {
+            opacity: 0;
             min-height: 1.5rem;
             margin-left: .5rem;
             padding: .5rem 1rem;
             border-radius: .25rem;
             line-height: .5;
             background-color: var(--accent-clr);
-            color: var(--line);
+            color: var(--main-BG);
             scale: 0 1;
             transform-origin: left;
-            transition: scale 500ms ease-in-out;
+            transition: scale 300ms ease-in-out;
         }
-        footer .attribution {
+        footer:hover {
+            width: 20rem;
+        }
+        footer:hover .attribution {
+            opacity: 1;
             scale: 1 1;
         }
 }
