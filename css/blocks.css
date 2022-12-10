@@ -69,10 +69,6 @@ main p {
     display: none;
 }
 
-/* footer {
-    font-size: 11px; 
-    text-align: center;
+footer {
+    display: none;
 }
-    footer a {
-        color: hsl(228, 45%, 44%);
-    } */

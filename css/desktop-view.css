@@ -40,4 +40,27 @@
     .creator h4 {
         font-size: .85rem;
     }
+
+    footer {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: 3rem;
+        bottom: 3rem;
+    }
+        footer .attribution {
+            min-height: 1.5rem;
+            margin-left: .5rem;
+            padding: .5rem 1rem;
+            border-radius: .25rem;
+            line-height: .5;
+            background-color: var(--accent-clr);
+            color: var(--line);
+            scale: 0 1;
+            transform-origin: left;
+            transition: scale 500ms ease-in-out;
+        }
+        footer .attribution {
+            scale: 1 1;
+        }
 }
